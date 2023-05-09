@@ -1,0 +1,66 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    .soldiv{
+        margin-top: 100px;
+        .ms{
+            color:#EF6D58;
+        }
+
+        .boyukyazi{
+            color: white
+        }
+        .kicikyazi{
+            color: #858585;
+        }
+
+        .btn1{
+            border-radius: 5px;
+            border: 1px solid black;
+            height: 40px;
+            background-color:#EF6D58;
+            font-weight: bold;
+            color: white;
+        a{
+            text-decoration: none;
+            color:white
+        }
+        }
+        .btn2{
+            border-radius: 5px;
+            border: 1px solid black;
+            height: 40px;
+            background-color: #28293E;
+            color: white;
+
+            a{
+                text-decoration: none;
+                color:white
+            }
+        }
+        
+        .sekil{
+            margin-top: 100px;
+            display: flex;
+        }
+    }
+    
+
+    .sagdiv{
+        margin-top: 100px;
+        .sekilhissesi{
+          width: 470px;
+          height: 502px;
+        }
+    }
+}
+
+
+
+@media screen and(max-width:768px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}
+    

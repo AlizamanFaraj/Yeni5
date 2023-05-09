@@ -1,0 +1,87 @@
+header {
+  display: flex;
+  justify-content: space-around;
+}
+header .soldiv {
+  margin-top: 100px;
+}
+header .soldiv .ms {
+  color: #EF6D58;
+}
+header .soldiv .boyukyazi {
+  color: white;
+}
+header .soldiv .kicikyazi {
+  color: #858585;
+}
+header .soldiv .btn1 {
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 40px;
+  background-color: #EF6D58;
+  font-weight: bold;
+  color: white;
+}
+header .soldiv .btn1 a {
+  text-decoration: none;
+  color: white;
+}
+header .soldiv .btn2 {
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 40px;
+  background-color: #28293E;
+  color: white;
+}
+header .soldiv .btn2 a {
+  text-decoration: none;
+  color: white;
+}
+header .soldiv .sekil {
+  margin-top: 100px;
+  display: flex;
+}
+header .sagdiv {
+  margin-top: 100px;
+}
+header .sagdiv .sekilhissesi {
+  width: 470px;
+  height: 502px;
+}
+
+body {
+  background-color: #28293E;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .agency {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+.navbar .aboutolanhisse {
+  display: flex;
+  gap: 100px;
+}
+.navbar .aboutolanhisse li {
+  list-style: none;
+  display: flex;
+}
+.navbar .aboutolanhisse li a {
+  text-decoration: none;
+  color: white;
+}
+.navbar .contact .btn {
+  background-color: #28293E;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.navbar .contact .btn a {
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
